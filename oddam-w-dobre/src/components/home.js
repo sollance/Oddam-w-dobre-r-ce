@@ -4,6 +4,8 @@ import Login from './header/login.js'
 import Navigation from './header/navigation.js'
 import HeaderButtons from './header/twoButtons'
 import ThreeColumns from './threeColumns/columns'
+import FourIcons from './fourIcons/fourIcons'
+import AboutUs from './aboutUs/aboutUs'
 
 function Home() {
     return(
@@ -28,17 +30,6 @@ function Header() {
     )
 }
 
-function FourIcons() {
-    return(
-        <h1>JESTEM IKONKAMI</h1>
-    )
-}
-
-function AboutUs() {
-    return(
-        <h1>JESTEM OPISEM</h1>
-    )
-}
 
 function AboutOrg() {
     return(

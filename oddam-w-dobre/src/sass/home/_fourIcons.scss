@@ -1,0 +1,129 @@
+@import 'settings/colors';
+
+div.fourIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+
+    p.steps {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        text-align: center;
+        font-size: 38px;
+        line-height: 55px;
+        letter-spacing: -0.76px;
+        color: #3C3C3C;
+
+        &::after {
+            content: '';
+            background-image: url('../../assets/Decoration.svg');
+            width: 253px;
+            height: 33px;
+            background-position: center;
+            margin-top: 25px;
+        }
+    }
+
+    div.button {
+        width: 310px;
+        height: 120px;
+        border: 0.75px solid #3C3C3C;
+        margin-top: 35px;
+        margin-bottom: 35px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            text-align: center;
+            font-size: 36px;
+            line-height: 45px;
+            font-weight: lighter;
+            letter-spacing: 0;
+            color: #3C3C3C;
+
+            &:hover {
+                cursor: pointer;
+                color: $brown;
+                transition: 0.3s;
+            }
+        }
+    }
+
+    div.allIcons {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        height: 325px;
+        width: 100%;
+        background-color: #F0F1F1;
+
+        div.icon {
+            width: 132px;
+            height: 178px;
+
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            flex-direction: column;
+
+            p {
+                font-size: 16px;
+                color: #3C3C3C;
+
+                text-align: center;
+            }
+
+            p.pOne {
+                font-size: 18px;
+            }
+
+            p.pOne::after {
+                content: '';
+                display: block;
+                height: 1px;
+                background-color: #3C3C3C;
+                width: 150px;
+                margin-bottom: 3px;
+                margin-top: 3px;
+                flex-grow: 1;
+            }
+
+            div.imageOne{          
+                margin-bottom: 10px;
+                width: 83px;
+                height: 83px;
+                background-image: url('../../assets/Icon-1.svg');
+            }
+
+            div.imageTwo{
+                margin-bottom: 10px;
+                width: 83px;
+                height: 83px;
+                background-image: url('../../assets/Icon-2.svg');
+            }
+
+            div.imageThree{
+                margin-bottom: 10px;
+                width: 83px;
+                height: 83px;
+                background-image: url('../../assets/Icon-3.svg');
+            }
+
+            div.imageFour{
+                margin-bottom: 10px;
+                width: 83px;
+                height: 83px;
+                background-image: url('../../assets/Icon-4.svg');
+            }
+        }
+    }
+}
