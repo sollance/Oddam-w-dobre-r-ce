@@ -1,0 +1,41 @@
+div.threeCol {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 384px;
+
+    background-image: url('../../assets/columnsBG.png');
+
+
+    div.column {
+        display: inline-block;
+        width: 334px;
+        height: 252px;
+        text-align: center;
+
+        p.number {
+            font-size: 90px;
+            font-weight: lighter;
+            letter-spacing: 0;
+            color: #5E5322;
+            line-height: 122px;
+        }
+
+        p.descr {
+            font-size: 18px;
+            letter-spacing: -0.36px;
+            color: #3C3C3C;
+            line-height: 30px;
+        }
+
+        p.paragr {
+            font-size: 16px;
+            font-family: 'Merriweather', sans-serif;
+            font-weight: lighter;
+            letter-spacing: -0.32px;
+            color: #3C3C3C;
+            line-height: 18px;
+            margin-top: 28px;
+        }
+    }
+}

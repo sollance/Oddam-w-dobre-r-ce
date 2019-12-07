@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
-@import 'settings/reset.sass';
+@import 'settings/reset.scss';
 @import 'settings/colors';
 @import 'settings/fonts';
 @import 'settings/general';
+@import './home/header.scss';
+@import './home/threeColumns';

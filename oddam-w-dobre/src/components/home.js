@@ -1,5 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Login from './header/login.js'
+import Navigation from './header/navigation.js'
+import HeaderButtons from './header/twoButtons'
+import ThreeColumns from './threeColumns/columns'
 
 function Home() {
     return(
@@ -17,28 +21,10 @@ function Home() {
 function Header() {
     return(
         <div className="headerBg">
-            <div className="login">
-                <ul>
-                    <li>Zaloguj</li>
-                    <li>Załóż konto</li>
-                </ul>
-            </div>
-            <nav>
-                <ul>
-                    <li>Start</li>
-                    <li>O co chodzi?</li>
-                    <li>O nas</li>
-                    <li>Fundacje i organizacje</li>
-                    <li>Kontakt</li>
-                </ul>
-            </nav>
+            <Login />
+            <Navigation />  
+            <HeaderButtons />          
         </div>
-    )
-}
-
-function ThreeColumns() {
-    return(
-        <h1>JESTEM KOLUMIENKAMI</h1>
     )
 }
 

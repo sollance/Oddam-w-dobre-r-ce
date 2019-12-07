@@ -7,7 +7,7 @@ import {
     Switch,
     NavLink,
   } from 'react-router-dom';
-import '../css/App.css';
+// import '../css/App.css';
 import Home from './home.js'
 
 function App() {
