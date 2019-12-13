@@ -114,10 +114,12 @@ class ChangingRaising extends Component {
         return (
             <div className='fund'>
             <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            <ul className='raising'>
+            <ul className='fundations'>
                 {currentRai.map((n)=>(<li key={n.i}>
+                    <div className='fundAndAim'>
                      <h3>Zbiórka {n.name}</h3>
                      <p>Cel i misja: {n.aim}</p>
+                     </div>
                      <p>{n.needed}</p>
                 </li>))}
             </ul>
@@ -187,10 +189,12 @@ class ChangingOrg extends Component {
             return (
                 <div className='fund'>
                 <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                <ul className='organizations'>
+                <ul className='fundations'>
                     {currentOrg.map((n)=>(<li key={n.i}>
+                        <div className='fundAndAim'>
                          <h3>Organizacja {n.name}</h3>
                          <p>Cel i misja: {n.aim}</p>
+                         </div>
                          <p>{n.needed}</p>
                     </li>))}
                 </ul>
