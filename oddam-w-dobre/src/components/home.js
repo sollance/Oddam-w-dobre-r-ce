@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 
 import Login from './header/login.js'
@@ -10,7 +10,12 @@ import AboutUs from './aboutUs/aboutUs'
 import AboutOrg from './aboutOrg/aboutOrg'
 import Footer from './footer/footer'
 
-function Home() {
+
+
+
+class Home extends Component {
+    
+render() {
     return(
         <div>
         <Header />
@@ -22,10 +27,11 @@ function Home() {
         </div>
     )
 }
+}
 
 function Header() {
     return(
-        <div className="headerBg">
+        <div className="headerBg" name='header'>
             <Login />
             <Navigation />  
             <HeaderButtons />          

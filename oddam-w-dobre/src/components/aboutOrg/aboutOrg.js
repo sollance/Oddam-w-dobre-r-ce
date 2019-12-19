@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 
 function AboutOrg() {
     return(
-        <div className='changingAll'>
+        <div className='changingAll' name='fundations'>
         <Changing />
         </div>
     )
@@ -295,4 +295,4 @@ class ChangingFund extends Component {
 
 
 
-export default AboutOrg
+export default AboutOrg;

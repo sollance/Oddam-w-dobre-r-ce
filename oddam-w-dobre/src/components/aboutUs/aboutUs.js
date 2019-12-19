@@ -12,7 +12,7 @@ function AboutUs() {
 
 function Descr() {
     return(
-    <div className='about'>
+    <div className='about' name='aboutUs'>
         <p className='title'>O nas</p>
         <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p>
         <div className="sign"></div>
@@ -20,4 +20,4 @@ function Descr() {
     )
 }
 
-export default AboutUs
+export default AboutUs;

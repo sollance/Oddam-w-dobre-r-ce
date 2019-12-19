@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+
 function ColumnOne() {
     return(
         <div className='column'>
@@ -33,7 +34,7 @@ function ColumnThree() {
 
 function ThreeColumns() {
     return(
-        <div className='threeCol'>
+        <div className='threeCol' name='aboutProgram'>
             <ColumnOne />
             <ColumnTwo />
             <ColumnThree />
@@ -41,4 +42,4 @@ function ThreeColumns() {
     )
 }
 
-export default ThreeColumns
+export default ThreeColumns;
