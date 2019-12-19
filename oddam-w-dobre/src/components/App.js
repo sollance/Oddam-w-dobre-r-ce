@@ -7,10 +7,13 @@ import {
     Switch,
     NavLink,
   } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import * as Scroll from 'react-scroll';
 import { Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
- 
 
+import Logout from './logout'
+import Signup from './signup'
+import LoginPage from './loginPage'
 import Home from './home.js'
 import AboutUs from './aboutUs/aboutUs.js';
 import AboutOrg from './aboutOrg/aboutOrg.js';
@@ -39,13 +42,18 @@ class App extends React.Component {
     scrollToComponent(this.refs.name);
   return (
     <>
-          <HashRouter>
+          <Router>
+            <>
                <Route exact path='/' component={Home} />
                <Route path='/aboutProgram' component={ThreeColumns} />
                <Route path='/aboutUs' component={AboutUs} />
                <Route path='/fundations' component={AboutOrg} />
                <Route path='/contact' component={Footer} />
-          </HashRouter>
+               <Route path='/loginPage' component={LoginPage} />
+               <Route path='/signup' component={Signup} />
+               <Route path='/logout' component={Logout} />
+            </>
+          </Router>
     </>
   );
 }

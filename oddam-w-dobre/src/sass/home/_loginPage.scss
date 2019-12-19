@@ -1,0 +1,110 @@
+div.loginBg {
+    height: 100vh;
+    width: 100%;
+
+    div.loginTable,
+    div.signupTable,
+    div.logout {
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div.button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 117px;
+            height: 50px;
+            cursor: pointer;
+            margin-top: 30px;
+
+            &:hover {
+                border: 0.75px solid #3C3C3C;
+            }
+
+            a {
+                text-decoration: none;
+                }
+    }
+
+        h1 {
+            font-size: 40px;
+            line-height: 55px;
+            letter-spacing: -0.8px;
+            color: #3C3C3C;
+            width: 414px;
+            text-align: center;
+        }
+
+        div.decor {
+            background-image: url('../../assets/Decoration.svg');
+            display: block;
+            width: 253px;
+            height: 33px;
+            margin-bottom: 70px;
+        }
+
+        form {
+            width: 385px;
+            height: 235px;
+            background-color: #F0F1F1;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            label {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 35px;
+                color: #3C3C3C;
+            }
+    
+            input {
+                background-color: inherit;
+                border: none;
+                border-bottom: 1px solid #707070;
+                width: 256px;
+            }
+        }
+
+        form.signup {
+            height: 328px;
+        }
+
+        div.loginButtons {
+            
+
+            ul{
+                width: 504px;
+                display: flex;
+                justify-content: space-between;
+                li {
+                            width: 117px;
+                            height: 50px;
+                            cursor: pointer;
+                            margin-top: 30px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                        a{
+                            background: none;
+                            border: none;  
+                            text-decoration: none;                          
+                        }
+
+                        &:hover {
+                            border: 0.75px solid #3C3C3C;
+                        }
+                }
+            }
+        }
+    } 
+
+
+}

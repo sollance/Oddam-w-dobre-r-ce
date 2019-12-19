@@ -21,7 +21,7 @@ render() {
                 <li><a>O co chodzi?</a></li>
                 <li><a>O nas</a></li>
                 <li><a>Fundacje i organizacje</a></li>
-                <li><a onClick={() => scrollToComponent(this.Footer, { offset: 0, align: 'bottom', duration: 500, ease:'inExpo'})}>Kontakt</a></li>
+                <li><a>Kontakt</a></li>
             </ul>
         </nav>
     )

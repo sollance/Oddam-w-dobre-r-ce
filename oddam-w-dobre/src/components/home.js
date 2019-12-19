@@ -43,5 +43,5 @@ function Header() {
 
 
 
-
+export {Header};
 export default Home;
