@@ -5,7 +5,7 @@
   "dependencies": {
     "event": "^1.0.0",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^6.0.1",
     "gulpfile": "^1.0.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
